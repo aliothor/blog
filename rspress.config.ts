@@ -19,9 +19,8 @@ export default defineConfig({
   base:"/blog/",
   builderConfig: {
     output: {
-      distPath: {
-
-      },
+      distPath: {},
+      assetPrefix:"/blog/"
     },
   },
 })

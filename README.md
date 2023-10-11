@@ -1,8 +1,8 @@
-# Aliothor Blog
+# 😊Aliothor Blog
 
 https://aliothor.github.io/blog/
 
-### GitHub Pages 托管
+#### 🥃GitHub Actions配置
 
 ```yml
 name: Deploy Rspress site to Pages
@@ -14,6 +14,8 @@ on:
   workflow_dispatch:
 
 permissions:
+  contents: read #rspress文档缺失部分
+  pages: write #rspress文档缺失部分
   id-token: write
 
 concurrency:
@@ -64,4 +66,5 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
 ```
-### 使用 [Rspress](https://rspress.dev) 构建
+
+#### 💖使用 [Rspress](https://rspress.dev) 构建
