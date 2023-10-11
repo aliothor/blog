@@ -1,5 +1,6 @@
 # Aliothor Blog
 
+https://aliothor.github.io/blog/
 
 ### GitHub Pages 托管
 
