@@ -16,6 +16,7 @@ export default defineConfig({
   markdown: {
     mdxRs: true,
   },
+  base:"/blog/",
   builderConfig: {
     output: {
       distPath: {
