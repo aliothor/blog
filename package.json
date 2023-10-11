@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "rspress dev",
     "build": "rspress build",
-    "preview": "rspress preview"
+    "preview": "rspress build && rspress preview"
   },
   "dependencies": {
     "react": "^18.2.0",

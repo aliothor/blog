@@ -19,8 +19,7 @@ export default defineConfig({
   base:"/blog/",
   builderConfig: {
     output: {
-      distPath: {},
-      assetPrefix:"/blog/"
+      assetPrefix:"https://aliothor.github.io/blog/",
     },
   },
 })
