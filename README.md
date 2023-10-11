@@ -45,7 +45,7 @@ jobs:
       - name: Build with Rspress
         run: |
           pnpm run build
-          touch doc_build/.nojekyll
+          # touch doc_build/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
