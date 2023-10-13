@@ -7,7 +7,7 @@ hero:
   tagline: Aliothor tagline
   actions:
     - theme: brand
-      text: Quick Start
+      text: Blog
       link: /guide/
     - theme: alt
       text: Github
@@ -33,5 +33,5 @@ features:
     icon: 🌈
   - title: Providing multiple custom capabilities
     details: Through its extension mechanism, you can easily extend theme UI and build process.
-    icon: 🔥
+    icon: Ⓜ️
 ---

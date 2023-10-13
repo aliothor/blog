@@ -1,0 +1,17 @@
+[
+  {
+    "type": "file",
+    "name": "index",
+    "label": "MDX语法"
+  },
+  {
+    "type": "file",
+    "name": "map",
+    "label": "地图组件"
+  },
+  {
+    "type": "dir",
+    "name": "components",
+    "label": "公共组件"
+  }
+]

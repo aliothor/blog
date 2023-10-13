@@ -5,12 +5,8 @@
     "activeMatch": "/guide/"
   },
   {
-    "text": "Hello World",
+    "text": "Blog",
     "link": "/hello/",
     "activeMatch": "/hello/"
-  },
-  {
-    "text": "GitHub",
-    "link": "https://github.com/aliothor/blog"
   }
 ]
