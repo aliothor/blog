@@ -1,8 +1,10 @@
-import * as path from 'path'
+import { join } from 'path'
+import { env } from 'node:process'
 import { defineConfig } from 'rspress/config'
 
+
 export default defineConfig({
-  root: path.join(__dirname, 'docs'),
+  root: join(__dirname, 'docs'),
   title: 'Aliothor',
   description: 'Aliothor Blog',
   icon: '/rspress-icon.png',
@@ -16,7 +18,7 @@ export default defineConfig({
   markdown: {
     mdxRs: true,
   },
-  base:"/blog/",
+  base: env.Vercel ? '/' : "/blog/",
   builderConfig: {
     output: {
       // assetPrefix:"https://aliothor.github.io/blog/",
