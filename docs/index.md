@@ -2,13 +2,13 @@
 pageType: home
 
 hero:
-  name: Aliothor
-  text: Aliothor Blog
-  tagline: Aliothor tagline
+  name: Aliothor Blog
+  # text: Aliothor Blog
+  tagline: GIS Development Engineer
   actions:
     - theme: brand
       text: Blog
-      link: /guide/
+      link: /article/
     - theme: alt
       text: Github
       link: https://github.com/aliothor/blog

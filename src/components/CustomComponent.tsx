@@ -1,5 +1,5 @@
 export default function App() {
     return (
-        <h1>组件测试11</h1>
+        <h1>自定义组件测试</h1>
     )
 }

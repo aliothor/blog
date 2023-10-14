@@ -1,0 +1,27 @@
+[
+  {
+    "type": "file",
+    "name": "research",
+    "label": "研究方向"
+  },
+  {
+    "type": "dir",
+    "name": "gis",
+    "label": "GIS相关"
+  },
+  {
+    "type": "dir",
+    "name": "frontend",
+    "label": "前端相关"
+  },
+  {
+    "type": "dir",
+    "name": "tools",
+    "label": "常用工具"
+  },
+  {
+    "type": "file",
+    "name": "grammar",
+    "label": "MDX语法"
+  }
+]

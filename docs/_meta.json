@@ -1,11 +1,11 @@
 [
   {
-    "text": "Guide",
-    "link": "/guide/",
-    "activeMatch": "/guide/"
+    "text": "资料",
+    "link": "/article/",
+    "activeMatch": "/article/"
   },
   {
-    "text": "Blog",
+    "text": "测试",
     "link": "/hello/",
     "activeMatch": "/hello/"
   }

@@ -1,0 +1,12 @@
+[
+    {
+      "type": "file",
+      "name": "standard",
+      "label": "数据标准"
+    },
+    {
+      "type": "file",
+      "name": "framework",
+      "label": "开发框架"
+    }
+  ]
