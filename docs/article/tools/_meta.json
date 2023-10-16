@@ -1,0 +1,12 @@
+[
+    {
+      "type": "file",
+      "name": "inline-tools",
+      "label": "在线工具集"
+    },
+    {
+      "type": "file",
+      "name": "dev-tools",
+      "label": "个人工具集"
+    }
+  ]
