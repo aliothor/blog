@@ -23,15 +23,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0 # Not needed if lastUpdated is not enabled
-      - uses: pnpm/action-setup@v2 # pnpm is optional but recommended, you can also use npm / yarn
+          fetch-depth:
+      - uses: pnpm/action-setup@v2 
         with:
           version: 8
-          cache: pnpm
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 21
           cache: pnpm
       - name: Setup Pages
         uses: actions/configure-pages@v3

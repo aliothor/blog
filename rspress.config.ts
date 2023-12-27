@@ -20,8 +20,5 @@ export default defineConfig({
   },
   base: env.Vercel ? '/' : "/blog/",
   builderConfig: {
-    output: {
-      // assetPrefix:"https://aliothor.github.io/blog/",
-    },
   },
 })
