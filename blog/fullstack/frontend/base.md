@@ -12,21 +12,30 @@
 
 - drag and drop
 - context menu
+- file upload
 
 ## Web API
 
 - [queueMicrotask](https://developer.mozilla.org/en-US/docs/Web/API/queueMicrotask)
 - [requestIdleCallback](https://developer.mozilla.org/en-US/docs/Web/API/Window/requestIdleCallback)
+- [Web Worker](https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Workers_API)
 
 ## Indexedb
 
 - [IndexedDB_API](https://developer.mozilla.org/zh-CN/docs/Web/API/IndexedDB_API)
 
-## Web Component
+## Web Components
 
 - [Web Component](https://developer.mozilla.org/zh-CN/docs/Web/API/Web_components)
 - [Lit](https://github.com/vitest-dev/vitest/tree/main/examples)
 - [stencil](https://github.com/ionic-team/stencil)
+
+## 微前端
+
+- [乾坤](https://github.com/umijs/qiankun)
+- [microapp](https://github.com/micro-zoe/micro-app)
+- [wujie](https://github.com/Tencent/wujie)
+- [Module Federation](https://module-federation.io/zh/)
 
 ## 社区
 

@@ -21,3 +21,4 @@
 ## 插件开发
 
 - [unplugin](https://unplugin.unjs.io/)
+- [magic-string](https://github.com/rich-harris/magic-string)

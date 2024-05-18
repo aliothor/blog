@@ -11,3 +11,14 @@
 - [webdriverio](https://webdriver.io/)
 - [cypress](https://www.cypress.io/)
 - [nightwatch](https://nightwatchjs.org/)
+
+
+### playwright
+
+- [测试web worker]()
+- [playwright组件测试]()
+
+
+### webdriverio
+
+- [测试Electron应用]()
