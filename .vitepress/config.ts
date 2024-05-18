@@ -106,8 +106,8 @@ export default defineConfig({
                     link: "/blog/fullstack/backend/trpc.md"
                   },
                   {
-                    text: "Fastapi",
-                    link: "/blog/fullstack/backend/fastapi.md"
+                    text: "Python",
+                    link: "/blog/fullstack/backend/python.md"
                   },
                   {
                     text: "Nginx",

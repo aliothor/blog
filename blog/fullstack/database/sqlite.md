@@ -1,4 +1,4 @@
-# sqlite
+# SQLite
 
-- [sqlite](https://www.sqlite.org/index.html)
+- [SQLite](https://www.sqlite.org/index.html)
 - [SpatiaLite](https://www.gaia-gis.it/fossil/libspatialite/index)

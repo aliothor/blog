@@ -58,3 +58,5 @@
 > https://github.com/privatenumber
 
 > https://github.com/sindresorhus
+
+> https://vitepress.dev/zh/

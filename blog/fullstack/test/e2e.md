@@ -15,10 +15,10 @@
 
 ### playwright
 
-- [测试web worker]()
-- [playwright组件测试]()
+- [测试web worker](https://github.com/aliothor/web-worker-e2e-test)
+- [playwright组件测试](https://playwright.dev/docs/test-components)
 
 
 ### webdriverio
 
-- [测试Electron应用]()
+- [测试Electron应用](https://webdriver.io/docs/desktop-testing/electron)

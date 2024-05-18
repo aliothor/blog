@@ -43,3 +43,12 @@
 - [教程](https://webgpufundamentals.org/)
 - [WSGL](https://www.w3.org/TR/WGSL/)
 - [示例](https://github.com/webgpu/webgpu-samples)
+
+
+## 社区
+
+> https://github.com/visgl
+
+> https://github.com/antvis
+
+> https://github.com/VisActor/

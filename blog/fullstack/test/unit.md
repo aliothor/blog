@@ -8,7 +8,12 @@
 
 ## vitest
 
-### vitest测试typeorm
+### vitest测试typeorm配置
+
+::: tip 使用swc代替vite中的esbuild,并配置装饰器支持
+1. [rollup-plugin-swc3](https://www.npmjs.com/package/rollup-plugin-swc3)
+2. [unplugin-swc](https://github.com/unplugin/unplugin-swc)
+:::
 
 ```typescript
 // vitest.config.ts
@@ -16,7 +21,7 @@ import { defineConfig } from 'vitest/config'
 import { swc } from 'rollup-plugin-swc3';
 
 export default defineConfig({
-    esbuild: false,
+    esbuild: false, // [!code focus]
     plugins: [
         swc({
             jsc: {
