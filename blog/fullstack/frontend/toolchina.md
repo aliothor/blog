@@ -17,6 +17,7 @@
 - [bunchee](https://github.com/huozhi/bunchee)
 - [pkgroll](https://github.com/privatenumber/pkgroll)
 - [tsup](https://github.com/egoist/tsup)
+- [rsdoctor](https://github.com/web-infra-dev/rsdoctor)
 
 ## 插件开发
 

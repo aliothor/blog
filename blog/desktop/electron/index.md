@@ -5,4 +5,8 @@
 
 ## Electron使用Node原生模块
 
-> https://www.electronjs.org/docs/latest/tutorial/using-native-node-modules
+> [文档](https://www.electronjs.org/docs/latest/tutorial/using-native-node-modules)
+
+## 社区
+
+> https://github.com/sindresorhus/awesome-electron

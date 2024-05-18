@@ -36,6 +36,7 @@
 - [microapp](https://github.com/micro-zoe/micro-app)
 - [wujie](https://github.com/Tencent/wujie)
 - [Module Federation](https://module-federation.io/zh/)
+- [garfish](https://github.com/web-infra-dev/garfish)
 
 ## 社区
 
@@ -58,5 +59,7 @@
 > https://github.com/privatenumber
 
 > https://github.com/sindresorhus
+
+> https://github.com/pmndrs
 
 > https://vitepress.dev/zh/

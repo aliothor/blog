@@ -110,6 +110,14 @@ export default defineConfig({
                     link: "/blog/fullstack/backend/python.md"
                   },
                   {
+                    text: "C#",
+                    link: "/blog/fullstack/backend/csharp.md"
+                  },
+                  {
+                    text: "Golang",
+                    link: "/blog/fullstack/backend/golang.md"
+                  },
+                  {
                     text: "Nginx",
                     link: "/blog/fullstack/backend/nginx.md"
                   },
@@ -188,16 +196,6 @@ export default defineConfig({
               },
             ]
           },
-          // {
-          //   text: '常用工具',
-          //   collapsed: true,
-          //   items: [
-          //     {
-          //       text: "工具",
-          //       link: "/blog/tool/"
-          //     }
-          //   ]
-          // }
         ]
       },
       {
@@ -210,7 +208,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/aliothor' }
+      { icon: 'github', link: 'https://github.com/aliothor/blog' }
     ]
   }
 })

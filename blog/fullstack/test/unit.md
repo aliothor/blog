@@ -4,6 +4,7 @@
 - [mocha](https://mochajs.org/)
 - [sinon](https://sinonjs.org/)
 - [ava](https://github.com/avajs/ava)
+- [manten](https://github.com/privatenumber/manten)
 
 
 ## vitest
