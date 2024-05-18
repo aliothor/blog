@@ -6,6 +6,7 @@ export default defineConfig({
   description: "Aliothor的博客",
   lastUpdated: true,
   lang: 'zh-CN',
+  base: "/blog/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
