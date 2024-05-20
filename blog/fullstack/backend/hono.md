@@ -5,8 +5,10 @@
 
 ## 使用vitest测试Hono接口
 
-```typescript
-// index.ts
+
+::: code-group
+
+```ts [index.ts]
 import { serve } from '@hono/node-server'
 import { Hono } from 'hono'
 
@@ -26,8 +28,7 @@ serve({
 })
 ```
 
-```typescript
-// index.test.ts
+```ts [index.test.ts]
 import { describe, test ,expect} from 'vitest'
 import { app } from '../src/index'
 
@@ -40,3 +41,5 @@ describe('hono app tes', () => {
     })
 })
 ```
+
+:::

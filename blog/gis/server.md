@@ -8,7 +8,7 @@
 
 - [Mapserver官网](https://mapserver.org/)
 
-## 地图服务端渲染
+## 服务端渲染
 
 > https://github.com/maplibre/maplibre-native
 

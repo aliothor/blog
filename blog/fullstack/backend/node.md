@@ -120,3 +120,11 @@
 > https://www.npmjs.com/package/nano-staged
 
 > https://www.npmjs.com/package/simple-git-hooks
+
+> https://github.com/release-it/release-it
+
+> https://github.com/conventional-changelog
+
+> https://github.com/commitizen
+
+> https://pnpm.io/zh/workspaces

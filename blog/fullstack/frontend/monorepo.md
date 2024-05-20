@@ -1,6 +1,6 @@
 # Monorepo工具
 
-- [pnpm](https://github.com/pnpm/pnpm)z
+- [pnpm](https://pnpm.io/zh/workspaces)
 - [lerna](https://github.com/lerna/lerna)
 - [turborepo](https://turbo.build/repo)
 - [yarn](https://github.com/yarnpkg/berry)

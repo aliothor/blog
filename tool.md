@@ -17,3 +17,11 @@
 - [PowerShell](https://learn.microsoft.com/zh-cn/powershell/)
 - [Oh My Posh](https://ohmyposh.dev/)
 - [字体下载](https://www.nerdfonts.com/)
+
+## 常用软件
+
+- UTools
+- Apifox
+- Pixpin
+- geek
+- Quicker

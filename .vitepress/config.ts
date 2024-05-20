@@ -102,7 +102,7 @@ export default defineConfig({
                     link: "/blog/fullstack/backend/fastify.md"
                   },
                   {
-                    text: "trpc",
+                    text: "tRPC",
                     link: "/blog/fullstack/backend/trpc.md"
                   },
                   {

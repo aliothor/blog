@@ -6,8 +6,34 @@
 ## 使用vitest测试fastify接口
 
 
-```typescript
-// ./route/test.ts
+::: code-group
+
+```ts [index.ts]
+import Fastify from 'fastify'
+import testRoute from './routes/test'
+
+function buildFastify() {
+  const fastify = Fastify({
+    logger: false,
+  })
+
+  fastify.register(testRoute)
+
+  // Run the server!
+  fastify.listen({ port: 3000, host: '127.0.0.1' }, function (err, address) {
+    if (err) {
+      fastify.log.error(err)
+      process.exit(1)
+    }
+    console.log(`服务器启动成功: ${address}`)
+  })
+  return fastify
+}
+
+export { buildFastify }
+```
+
+```ts [./route/test.ts]
 import type { FastifyInstance } from 'fastify'
 
 interface IHelloQuerystring {
@@ -39,39 +65,12 @@ async function routes(fastify: FastifyInstance) {
 export default routes
 ```
 
-```typescript
-// index.ts
-import Fastify from 'fastify'
-import testRoute from './routes/test'
-
-function buildFastify() {
-  const fastify = Fastify({
-    logger: false,
-  })
-
-  fastify.register(testRoute)
-
-  // Run the server!
-  fastify.listen({ port: 3000, host: '127.0.0.1' }, function (err, address) {
-    if (err) {
-      fastify.log.error(err)
-      process.exit(1)
-    }
-    console.log(`服务器启动成功: ${address}`)
-  })
-  return fastify
-}
-
-export { buildFastify }
-```
-
-```typescript
-// index.test.ts
+```ts [index.test.ts]
 import { describe, it, beforeAll, expect } from 'vitest'
 import { buildFastify } from '../src/index'
 import type { FastifyInstance } from 'fastify'
 
-describe('接口测试', () => {
+describe('api server test', () => {
   let fastify: FastifyInstance
   beforeAll(() => {
     fastify = buildFastify()
@@ -80,7 +79,7 @@ describe('接口测试', () => {
     }
   })
 
-  it('index', async () => {
+  it('root', async () => {
     const res = await fastify.inject({
       method: 'GET',
       url: '/',
@@ -114,3 +113,5 @@ describe('接口测试', () => {
   })
 })
 ```
+
+:::

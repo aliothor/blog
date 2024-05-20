@@ -4,7 +4,6 @@ layout: home
 
 hero:
   name: "Aliothor的博客"
-  # text: "A VitePress Site"
   tagline: GIS方向程序员，键圈入门玩家
 
   image:
